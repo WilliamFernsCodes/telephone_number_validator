@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  font-size: 10px;
+  overflow: hidden;
+}
+
+main {
+  background-color: blue;
+  color: #fff;
+  height: 100vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.text-section {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.text-section h1 {
+  font-size: 2em;
+  line-height: 105%;
+}
+
+.text-section p {
+  width: 80%;
+  font-size: 1.2em;
+}
+
+.phone-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  padding: 15px;
+  width: 250px;
+  border-radius: 25px;
+  border: 2px solid grey;
+  background-color: black;
+}
+
+.top-section {
+  display: flex;
+  width: 100%;
+  justify-content: center; 
+  align-items: center;
+}
+
+.top-section .circle {
+  background-color: #fff;
+  width: 1.25em;
+  height: 1.25em;
+  border-radius: 50%;
+}
+
+.screen {
+  width: 90%;
+  height: 100%;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.screen label {
+  font-size: 1.25em;
+}
+
+.screen input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px 7.5px;
+  display: flex;
+  align-items: center;
+}
+
+.screen .power-btn, .screen .volume-btn {
+  width: 5px;
+  height: 40px;
+  border-right: 0.5px solid grey;
+  border-bottom: 0.5px solid grey;
+  background-color: black;
+  border-radius: 5px;
+  position: absolute;
+  top: 180px;
+  right: -10px;
+}
+
+.screen .volume-btn {
+  top: 80px;
+  height: 80px;
+}
+
+
+#btn-container {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+#btn-container button {
+  padding: 7.5px 11.25px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+
+#btn-container #clear-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+#btn-container #check-btn {
+  background-color: rgb(127.5, 50, 255);
+  color: #fff;
+}
